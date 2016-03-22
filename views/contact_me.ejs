@@ -11,14 +11,21 @@
                     </div>
                     </div>
                     </section>
-
+<% if (messages) { %>
+                <div class="alert alert-success alert-dismissable" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <%= messages %></div>
+            <% } %>
+          
+            <form method="post">
 <link rel="stylesheet" type="text/css" href='/Content/contact_me.css' />
 
 <!-- Form  -->
 <div class="row">
      <div class="col-md-6 col-md-offset-3">
 
-<form action="mailto:mansipatel896@gmail.com" enctype="text/plain" method="post">
+<!-- <form action="mailto:mansipatel896@gmail.com" enctype="text/plain" method="post">  -->
 <form class="form-horizontal">
  
   <div class="form-group">
