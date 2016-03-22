@@ -26,13 +26,13 @@ router.get('/projects', function(req, res, next) {
 
 //About get request
 /* GET contact page. */
-router.get('/contact', function (req, res, next) {
+router.get('/contact_me', function (req, res, next) {
     req.flash('successmessage', 'Thank You. Your message has been sent.');
     req.flash('errormessage', 'An Error has occurred.');
     res.render('contact', { title: 'Contact', messages: null });
 });
 /* Email processing */
-router.post('/contact', function (req, res, next) {
+router.post('/contact_me', function (req, res, next) {
     sendgrid.send({
         to: 'mansipatel10@yaoo.com',
         from: req.body.email,
