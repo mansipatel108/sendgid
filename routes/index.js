@@ -29,7 +29,7 @@ router.get('/projects', function(req, res, next) {
 router.get('/contact_me', function (req, res, next) {
     req.flash('successmessage', 'Thank You. Your message has been sent.');
     req.flash('errormessage', 'An Error has occurred.');
-    res.render('contact', { title: 'Contact', messages: null });
+    res.render('contact_me', { title: 'Contact', messages: null });
 });
 /* Email processing */
 router.post('/contact_me', function (req, res, next) {
@@ -49,7 +49,7 @@ router.post('/contact_me', function (req, res, next) {
         if (err) {
             res.status(500).json('error');
         }
-        res.render('contact', {
+        res.render('contact_me', {
             title: 'Contact',
             messages: req.flash('successmessage')
         });
