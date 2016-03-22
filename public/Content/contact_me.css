@@ -1,0 +1,43 @@
+<style>
+/* Body styles  */
+body {
+      background-size: 1400px 700px;
+      background-image: url("../images/my.jpg");
+      background-size : auto;
+      }
+    
+ body  {
+      background-size: 2560px 1600px;
+      background-image: url("../images/my.jpg");
+      background-size : auto; 
+       }
+       
+/* Form  */
+ form {
+    font-family: 'Times New Roman', Times, serif;
+	padding: 0 2% 0 2%;
+    align:"center";
+	margin-top: 2%;
+    }
+    
+label, input{
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+/* Section styles  */
+section {
+        padding-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+
+contact {
+   align:"center";
+    }
+    
+    
+</style>

@@ -1,0 +1,52 @@
+<style>
+
+/* Body styles   */
+body {
+      background-size: 1400px 700px;
+      background-image: url("../images/my.jpg");
+      background-size : auto;
+      }
+    
+ body  {
+      background-size: 2560px 1600px;
+      background-image: url("../images/my.jpg");
+      background-size : auto; 
+          
+            }
+/* Section styles  */
+            section {
+        padding-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+
+/* Paragraph   */
+.aboutme p{
+    padding-top: 35px;
+    color: whitesmoke;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-family:  'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: justify;
+    font-size: 22px;
+    width: 80%;
+    position: relative;
+    }
+
+/* Links */ 
+ p a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+ p a:visited {
+    color: white;
+    text-decoration: none;
+}
+            
+   </style>

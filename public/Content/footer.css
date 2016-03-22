@@ -1,0 +1,19 @@
+<style>
+
+/* Font awesome   */   
+i.fa.fa-github.fa-stack-1x.text-primary {
+    color: ghostwhite;
+    }
+
+/* Nav bar */    
+div.navbar-text.pull-right a{
+        color: ghostwhite;
+    }
+    
+div.navbar-text.pull-left p {
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        color: ghostwhite;
+    }
+    
+    </style>

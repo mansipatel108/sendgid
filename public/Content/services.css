@@ -1,0 +1,24 @@
+<style>
+/* Nav links */
+body {
+      background-size: 1400px 700px;
+      background-image: url("../images/my.jpg");
+      background-size : auto;
+      }
+    
+ body  {
+      background-size: 2560px 1600px;
+      background-image: url("../images/my.jpg");
+      background-size : auto; 
+        }
+            
+/* Section styles  */
+section {
+        padding-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+          }
+
+</style>

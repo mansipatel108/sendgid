@@ -1,0 +1,56 @@
+<style>
+/* Body styles */
+body {
+      background-size: 1400px 700px;
+      background-image: url("../images/my.jpg");
+      background-size : auto;
+      }
+    
+ body  {
+     
+      background-size: 2560px 1600px;
+      background-image: url("../images/my.jpg");
+      background-size : cover; 
+             }
+
+/* Header  */         
+.header {
+    color: white;
+    margin-left: 50px;
+    font-family: 'Arvo', serif;
+    font-size: 4em;
+    font-weight: 100;
+    position: relative;
+    margin-top: 15%;
+    letter-spacing: 8px;
+
+} 
+    .header2{
+    color: ghostwhite;
+    margin-left: 50px;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    font-weight: 400;
+    position: relative;
+    margin-top: 1%;
+    letter-spacing: 7px;
+    }
+ 
+/* CSS typing effect */    
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 4s steps(50, end);
+    animation: type 4s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+</style>
