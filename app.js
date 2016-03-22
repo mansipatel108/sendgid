@@ -8,6 +8,10 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var session = require('express-session');
+// flash messages
+var flash = require('connect-flash');
+
 var app = express();
 
 // view engine setup
@@ -21,6 +25,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Initialize Session
+app.use(session({
+    secret: 'someSecret',
+    saveUninitialized: false,
+    resave: true
+}));
+// Initialize Flash Messages
+app.use(flash());
+
 
 app.use('/', routes);
 app.use('/users', users);
