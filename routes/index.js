@@ -37,11 +37,11 @@ router.post('/contact_me', function (req, res, next) {
         to: 'mansipatel10@yahoo.com',
         from: req.body.email,
         subject: 'Contact Form Submission',
-        text: "This message has been sent from the contact form at [MongoDB Demo]\r\n\r\n" +
+        text: "This message has been sent from the contact form at [your portfolio]\r\n\r\n" +
             "Name: " + req.body.name + "\r\n\r\n" +
             "Phone: " + req.body.phone + "\r\n\r\n" +
             req.body.message,
-        html: "This message has been sent from the contact form at [MongoDB Demo]<br><br>" +
+        html: "This message has been sent from the contact form at [your portfolio]<br><br>" +
             "<strong>Name:</strong> " + req.body.name + "<br><br>" +
             "<strong>Phone:</strong> " + req.body.phone + "<br><br>" +
             req.body.message
